@@ -4,7 +4,9 @@
 /*		color scheme:
 /*			header: 		#80714f
 /*			Body:   		#4f5e80
-/*			header font		#ffffff	
+/*			skills:			#c4b685
+/*			header font		#ffffff
+/*			footer			#ab9852	
 /*
 /*
 /*
@@ -13,40 +15,54 @@
 /*
 /************************************************/
 
-h1{
-	font-size: 70px;
-	color: #fff;
-	font-weight: bold;
+.header {
+	background-color: #4f5e80;
+	background-image: url('images/geoteal.jpg');
 	text-align: center;
-	font-family: helvetica, sans-serif, arial; 
+	border-bottom: 1px solid #000000;
+	padding: 5px 0 0 0;
+	margin-top: 0;
+	color: #000000;
+
+}
+
+.header h1 {
+	font-size: 70px;
+	color: #000000;
+	font-family: arial, helvetica, sans-serif; 
 	padding-bottom: 2px;
 	margin: 0 auto 0 auto;
 
 }
 
 
-.header {
-	background-color: #4f5e80;
-	text-align: center;
-	border-bottom: 1px solid #000000;
-	padding: 20px 0 0 0;
-	margin-top: 0;
-	color: #fff;
-
-
-
-}
 .header h2 {
-	font-weight: 
-}
-
-.tagline p {
-	font-family: palatino, serif, 'times new roman';
+	font-family: georgia, "times new Roman", serif;
 	margin: 0 auto 0 auto;
 	padding: 0 0 0 0;
+	font-style: italic;
+	font-size: 20pt;
 
 }
 
+.tagline {
+	background-color: #fff;
+	font-family: georgia, "times new Roman", serif;
+	margin: 0 auto 0 auto;
+	
+	text-align: left;
+}
+.tagline h3 {
+	margin: 0 auto 0 auto;
+	font-family: arial, helvetica, sans-serif;
+}
+.tagline p {
+	margin: 0 auto 0 auto;
+}
+.content_wrapper {
+	background-color: #c4b685;
+
+}
 
 
 
