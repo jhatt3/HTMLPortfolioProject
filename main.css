@@ -7,16 +7,16 @@
 /*			skills:			#c4b685
 /*			header font		#ffffff
 /*			footer			#ab9852	
-/*
-/*
+/*			alt header		#879cad
+/*			alt body		#c4c7c9
 /*
 /*
 /*
 /*
 /************************************************/
 .header {
-	background-color: #4f5e80;
-	background-image: url('images/geoteal.jpg');
+	background-color: #879cad;
+/*	background-image: url('images/geoteal.jpg');*/
 	text-align: center;
 	border-bottom: 1px solid #000000;
 	padding: 5px 0 0 0;
@@ -74,7 +74,7 @@
 }
 
 .content_wrapper {
-	background-color: #c4b685;
+	background-color: #c4c7c9;
 
 }
 .content-wrapper p {
